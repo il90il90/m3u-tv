@@ -1,0 +1,107 @@
+#EXTM3U
+# Generated from backend/src/config/channels.config.ts
+# Static sources only. Dynamic/token-based channels such as YES Sport are intentionally not included.
+
+#EXTINF:-1 tvg-id="kan11" tvg-name="כאן 11" tvg-logo="kan11" group-title="Israeli Broadcast",כאן 11
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/kan11/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="kan11_src2" tvg-name="כאן 11 - מקור 2" tvg-logo="kan11" group-title="Israeli Broadcast",כאן 11 - מקור 2
+https://kancdn.medonecdn.net/livehls/oil/kancdn-live/live/kan11/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="kan11_hevc" tvg-name="כאן 11 HEVC" tvg-logo="kan11" group-title="Israeli Broadcast",כאן 11 HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/kan11_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="kan11_subs" tvg-name="כאן 11 כתוביות" tvg-logo="kan11" group-title="Israeli Broadcast",כאן 11 כתוביות
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/kan11_subs/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="keshet12" tvg-name="קשת 12" tvg-logo="keshet12" group-title="Israeli Broadcast",קשת 12
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/keshet_12/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="keshet12_hevc" tvg-name="קשת 12 HEVC" tvg-logo="keshet12" group-title="Israeli Broadcast",קשת 12 HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/keshet_12_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="keshet12_subs" tvg-name="קשת 12 כתוביות" tvg-logo="keshet12" group-title="Israeli Broadcast",קשת 12 כתוביות
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/keshet_12_subs/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="reshet13" tvg-name="רשת 13" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/reshet_13/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="reshet13_src2" tvg-name="רשת 13 - מקור 2" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13 - מקור 2
+https://d18b0e6mopany4.cloudfront.net/out/v1/2f2bc414a3db4698a8e94b89eaf2da2a/index.m3u8
+#EXTINF:-1 tvg-id="reshet13_src3" tvg-name="רשת 13 - מקור 3" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13 - מקור 3
+https://d198ztbnlup2iq.cloudfront.net/out/v1/2d9050c90fb94df8b78d1d98306a1a65/index.m3u8
+#EXTINF:-1 tvg-id="reshet13_src4" tvg-name="רשת 13 - מקור 4" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13 - מקור 4
+https://d2xg1g9o5vns8m.cloudfront.net/out/v1/0855d703f7d5436fae6a9c7ce8ca5075/index.m3u8
+#EXTINF:-1 tvg-id="reshet13_hevc" tvg-name="רשת 13 HEVC" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13 HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/reshet_13_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="reshet13_subs" tvg-name="רשת 13 כתוביות" tvg-logo="reshet13" group-title="Israeli Broadcast",רשת 13 כתוביות
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/reshet_13_subs/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="ch14" tvg-name="ערוץ 14" tvg-logo="ch14" group-title="Israeli Broadcast",ערוץ 14
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/ch14/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="ch14_hevc" tvg-name="ערוץ 14 HEVC" tvg-logo="ch14" group-title="Israeli Broadcast",ערוץ 14 HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/ch14_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="ch14_subs" tvg-name="ערוץ 14 כתוביות" tvg-logo="ch14" group-title="Israeli Broadcast",ערוץ 14 כתוביות
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/ch14_subs/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="ch9" tvg-name="ערוץ 9" tvg-logo="ch9" group-title="Israeli Broadcast",ערוץ 9
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/ch9/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="sport5" tvg-name="ספורט 5" tvg-logo="sport5" group-title="Sport 5",ספורט 5
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_plus" tvg-name="ספורט 5 פלוס" tvg-logo="sport5plus" group-title="Sport 5",ספורט 5 פלוס
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_plus/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_plus_hevc" tvg-name="ספורט 5 פלוס HEVC" tvg-logo="sport5plus" group-title="Sport 5",ספורט 5 פלוס HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_plus_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_gold" tvg-name="ספורט 5 גולד" tvg-logo="sport5gold" group-title="Sport 5",ספורט 5 גולד
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_gold/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_live" tvg-name="ספורט 5 לייב" tvg-logo="sport5live" group-title="Sport 5",ספורט 5 לייב
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_live/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_live_hevc" tvg-name="ספורט 5 לייב HEVC" tvg-logo="sport5live" group-title="Sport 5",ספורט 5 לייב HEVC
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_live_hevc/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_max" tvg-name="ספורט 5 מקס" tvg-logo="sport5max" group-title="Sport 5",ספורט 5 מקס
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_max/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="sport5_4k" tvg-name="ספורט 5 4K" tvg-logo="sport54k" group-title="Sport 5",ספורט 5 4K
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/sport_5_4k/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="one1" tvg-name="ONE 1" tvg-logo="one1" group-title="ONE",ONE 1
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/one_1/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="one2" tvg-name="ONE 2" tvg-logo="one2" group-title="ONE",ONE 2
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/one_2/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="one_doco" tvg-name="ONE דוקו" tvg-logo="onedoco" group-title="ONE",ONE דוקו
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/one_doco/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="one_edge" tvg-name="ONE אדג'" tvg-logo="oneedge" group-title="ONE",ONE אדג'
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/one_edge/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="viva" tvg-name="VIVA" tvg-logo="viva" group-title="VIVA",VIVA
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/viva/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="viva_plus" tvg-name="VIVA פלוס" tvg-logo="vivaplus" group-title="VIVA",VIVA פלוס
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/viva_plus/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="erez_nehederet" tvg-name="ארץ נהדרת" tvg-logo="ereznehederet" group-title="Reality & Content",ארץ נהדרת
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/erez_nehederet/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="vamos" tvg-name="וואמוס" tvg-logo="vamos" group-title="Reality & Content",וואמוס
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/vamos/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="music24" tvg-name="מיוזיק 24" tvg-logo="music24" group-title="Music & Entertainment",מיוזיק 24
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/music24/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="music_il" tvg-name="מיוזיק IL" tvg-logo="musicil" group-title="Music & Entertainment",מיוזיק IL
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/music_il/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="karaoke" tvg-name="ערוץ הקריוקי" tvg-logo="karaoke" group-title="Music & Entertainment",ערוץ הקריוקי
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/karaoke/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="yoyo" tvg-name="יויו" tvg-logo="yoyo" group-title="Kids",יויו
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/yoyo/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="logi" tvg-name="לוגי" tvg-logo="logi" group-title="Kids",לוגי
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/logi/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="yalduti" tvg-name="ילדותי" tvg-logo="yalduti" group-title="Kids",ילדותי
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/yalduti/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="junior" tvg-name="ג'וניור" tvg-logo="junior" group-title="Kids",ג'וניור
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/junior/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="fomo" tvg-name="FOMO" tvg-logo="fomo" group-title="Kids",FOMO
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/fomo/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="foody" tvg-name="פודי" tvg-logo="foody" group-title="Lifestyle",פודי
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/foody/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="beautyz" tvg-name="ביוטיז" tvg-logo="beautyz" group-title="Lifestyle",ביוטיז
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/beautyz/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="daystar" tvg-name="דייסטאר" tvg-logo="daystar" group-title="Lifestyle",דייסטאר
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/daystar/live.livx/playlist.m3u8?fmp4&renditions
+#EXTINF:-1 tvg-id="a_plus" tvg-name="A פלוס" tvg-logo="aplus" group-title="Lifestyle",A פלוס
+https://d1zqtf09wb8nt5.cloudfront.net/livehls/oil/freetv/live/a_plus/live.livx/playlist.m3u8?fmp4&renditions
+
+#EXTINF:-1 tvg-id="movies_classics" tvg-name="קלאסיקות" tvg-logo="movies" group-title="Movies",קלאסיקות
+https://30a-tv.com/feeds/pzaz/30atvmovies.m3u8

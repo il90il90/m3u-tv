@@ -1,84 +1,100 @@
 # M3U TV Playlist
 
-קובץ M3U פשוט לשימוש עם נגני IPTV, אפליקציות מדיה, סטרימרים, מערכות בית חכם, שרתי מדיה וכל תוכנה שתומכת בטעינת Playlist מסוג M3U.
+A simple static M3U playlist that can be used with IPTV players, media apps, streaming devices, home media systems, smart home dashboards, media servers, and any application that supports loading an M3U playlist from a URL.
 
-## קישור ישיר לשימוש
+## Direct Playlist URL
 
-זה הקישור שכדאי להעתיק ולהדביק בכל מערכת שתומכת בטעינת Playlist דרך URL:
+Copy and paste this URL into any application that supports M3U playlist loading by URL:
 
 ```text
 https://raw.githubusercontent.com/il90il90/m3u-tv/main/playlist.m3u
 ```
 
-## מה יש בריפו הזה?
+## What is included in this repository?
 
-הריפו כולל קובץ Playlist סטטי בשם:
+This repository contains a static playlist file named:
 
 ```text
 playlist.m3u
 ```
 
-הקובץ מכיל רשימת ערוצים בפורמט M3U. כל ערוץ מוגדר עם שם, מזהה, קבוצה וקישור Stream מתאים.
+The file contains a list of channels in standard M3U format. Each channel entry may include a channel name, internal TV metadata, group/category information, and a stream URL.
 
-## איך משתמשים?
+## How to use
 
-ברוב התוכנות שתומכות ב־M3U התהליך דומה:
+Most applications that support M3U playlists follow a similar process:
 
-1. פותחים את אזור ההגדרות של IPTV / Live TV / Playlist / M3U.
-2. בוחרים הוספת Playlist חדש.
-3. מדביקים את הקישור הישיר:
+1. Open the application settings.
+2. Go to the IPTV / Live TV / Playlist / M3U section.
+3. Add a new playlist source.
+4. Paste this direct URL:
 
 ```text
 https://raw.githubusercontent.com/il90il90/m3u-tv/main/playlist.m3u
 ```
 
-4. שומרים ומרעננים את רשימת הערוצים.
+5. Save the playlist.
+6. Refresh or reload the channel list.
 
-## שימוש מקומי
+## Local usage
 
-אפשר גם להוריד את הקובץ ולהשתמש בו מקומית:
+You can also download the playlist and use it as a local file:
 
 ```bash
 curl -L -o playlist.m3u https://raw.githubusercontent.com/il90il90/m3u-tv/main/playlist.m3u
 ```
 
-לאחר מכן ניתן לטעון את הקובץ `playlist.m3u` בכל נגן או מערכת שתומכים בקובץ M3U מקומי.
+Then load the downloaded `playlist.m3u` file into any player or system that supports local M3U files.
 
-## מבנה בסיסי של M3U
+## Basic M3U structure
 
-דוגמה לשורת ערוץ בתוך הקובץ:
+Example channel entry:
 
 ```m3u
-#EXTINF:-1 tvg-id="kan11" tvg-name="כאן 11" group-title="Israeli Broadcast",כאן 11
+#EXTINF:-1 tvg-id="kan11" tvg-name="Kan 11" group-title="Israeli Broadcast",Kan 11
 https://example.com/live/playlist.m3u8
 ```
 
-המשמעות:
+Meaning:
 
-- `#EXTINF` - שורת מידע על הערוץ.
-- `tvg-id` - מזהה פנימי של הערוץ.
-- `tvg-name` - שם הערוץ.
-- `group-title` - קטגוריה או קבוצה.
-- השורה שמתחת - קישור הווידאו של הערוץ.
+- `#EXTINF` - channel metadata line.
+- `tvg-id` - internal channel identifier.
+- `tvg-name` - channel display name.
+- `group-title` - channel group or category.
+- The line below `#EXTINF` - the actual stream URL.
 
-## עדכון הרשימה
+## Updating the playlist
 
-כאשר הקובץ `playlist.m3u` מתעדכן בריפו, הקישור הישיר נשאר אותו קישור. ברוב המערכות מספיק לבצע Refresh / Reload / Update Playlist כדי לקבל את הגרסה החדשה.
+The direct playlist URL does not change when `playlist.m3u` is updated in this repository.
 
-## הערות חשובות
+After an update, most applications only need a playlist refresh, reload, or rescan in order to load the latest version.
 
-- זהו Playlist סטטי בלבד.
-- ערוצים שדורשים טוקן מתחלף, התחברות, קוקיז או חתימה דינמית לא מתאימים בדרך כלל לקובץ סטטי.
-- הריפו לא מארח את שידורי הווידאו עצמם, אלא רק קובץ Playlist עם קישורים חיצוניים.
-- זמינות הערוצים תלויה במקור השידור החיצוני.
+## Important notes
 
-## קבצים
+- This is a static playlist only.
+- Channels that require dynamic tokens, login sessions, cookies, signed URLs, or refresh logic are usually not suitable for a static M3U file.
+- This repository does not host or stream the video content itself.
+- The repository only stores a playlist file that points to external stream URLs.
+- Channel availability depends on the external stream source.
+- Some players may handle HLS, `.m3u8`, redirects, headers, or geo/network restrictions differently.
 
-| קובץ | תיאור |
+## Files
+
+| File | Description |
 |---|---|
-| `playlist.m3u` | קובץ ה־M3U הראשי לשימוש ישיר |
-| `README.md` | הסבר כללי על הריפו ואופן השימוש |
+| `playlist.m3u` | Main M3U playlist file for direct usage |
+| `README.md` | General repository documentation and usage guide |
 
-## License
+## Recommended usage
 
-שימוש לפי הצורך האישי ובהתאם לתנאי השימוש של מקורות השידור החיצוניים.
+For the most reliable experience, use the raw GitHub URL:
+
+```text
+https://raw.githubusercontent.com/il90il90/m3u-tv/main/playlist.m3u
+```
+
+Do not use the regular GitHub file viewer URL as a playlist source. The regular GitHub page is HTML, while the raw URL returns the actual M3U file content.
+
+## License and responsibility
+
+Use this playlist according to your needs and in accordance with the terms of use of the external stream sources.

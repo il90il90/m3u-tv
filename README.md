@@ -33,6 +33,11 @@ Most applications that support M3U playlists follow a similar process:
 https://raw.githubusercontent.com/il90il90/m3u-tv/main/playlist.m3u
 ```
 
+Or
+
+```text
+https://raw.githubusercontent.com/il90il90/m3u-tv/main/cell.m3u
+```
 5. Save the playlist.
 6. Refresh or reload the channel list.
 
